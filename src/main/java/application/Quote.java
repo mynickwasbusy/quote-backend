@@ -58,7 +58,7 @@ public class Quote {
 
         hs.setClip(true);
 
-        logger.info("calling dacadoo health score API (" + dacadooUrl + "): " + hs.toString());
+        logger.info(" dacadoo health score API (" + dacadooUrl + "): " + hs.toString());
 
         // Invoke dacadoo health score api
 
